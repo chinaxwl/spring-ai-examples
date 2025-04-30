@@ -1,0 +1,32 @@
+spring:
+  main:
+    banner-mode: off
+  ai:
+    openai:
+      base-url: https://dashscope.aliyuncs.com/compatible-mode #阿里百炼
+      api-key: ${API_KEY}
+      chat:
+        options:
+          model: qwen-plus
+          Content-type: application/json
+    mcp:
+      client:
+        toolcallback:
+          enabled:  true
+        name: mcp-client-stdio
+        stdio: #stdio模式
+          servers-configuration: classpath:mcp-servers.json
+
+#logging:
+#  pattern:
+#    console:
+#  file:
+#    name: ./target/spring-ai-mcp-client-stdio-demo.log
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+#          - metrics
+#          - prometheus

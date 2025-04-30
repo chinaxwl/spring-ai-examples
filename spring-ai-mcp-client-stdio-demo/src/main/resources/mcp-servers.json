@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mcp-server-stdio":{
+      "command":"java",
+      "args":[
+        "-jar",
+        "-Dfile.encoding=UTF-8",
+        "D:\\ideaProject\\spring-ai-examples\\spring-ai-mcp-server-stdio-demo\\target\\spring-ai-mcp-server-stdio-demo-1.0-SNAPSHOT.jar"
+      ]
+    }
+  }
+}

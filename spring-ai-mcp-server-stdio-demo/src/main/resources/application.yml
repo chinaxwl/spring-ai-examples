@@ -1,0 +1,17 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+  ai:
+    mcp:
+      server:
+        name: mcp-server-stdio
+        version: 1.0.0
+        token: false
+
+logging:
+  pattern:
+    console:
+  file:
+    name: ./target/spring-ai-mcp-server-stdio-demo.log
+

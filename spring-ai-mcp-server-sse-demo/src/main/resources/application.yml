@@ -1,0 +1,10 @@
+# Using spring-ai-starter-mcp-server-webmvc
+spring:
+  ai:
+    mcp:
+      server:
+        name: mcp-server-sse
+        version: 1.0.0
+        stdio: false
+server:
+  port: 8081
