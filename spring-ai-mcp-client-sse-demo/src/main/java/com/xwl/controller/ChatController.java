@@ -13,7 +13,7 @@ import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 import java.io.IOException;
 
 /**
- * 大都督周瑜（我的微信: dadudu6789）
+ * xuewl
  */
 @RestController
 public class ChatController {
