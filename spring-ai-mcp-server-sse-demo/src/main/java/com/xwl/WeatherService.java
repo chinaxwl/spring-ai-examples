@@ -4,9 +4,7 @@ import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.stereotype.Service;
 
 /**
- * 大都督周瑜
- * 微信ID: dadudu6789
- * 专注帮助程序员提升技术实力，升职涨薪，面试跳槽
+ * xuewl
  */
 @Service
 public class WeatherService {
